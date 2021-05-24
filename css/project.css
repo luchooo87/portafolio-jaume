@@ -27,7 +27,8 @@
   }
 
   .project:nth-child(odd) .project__image {
-    order: 1;
+    order: 2;
     flex: 1;
+    text-align: center;
   }
 }
