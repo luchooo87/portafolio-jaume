@@ -8,12 +8,7 @@
   background: rgba(255, 255, 255, 0.2);
   backdrop-filter: blur(39.7657px);
   border-radius: 24px;
-  border: 4px solid;
-  border-image-source: radial-gradient(
-    83.14% 78.52% at -12.32% -18.69%,
-    rgba(255, 255, 255, 0.75) 0%,
-    rgba(255, 255, 255, 0) 100%
-  );
+  box-shadow: -7px -5px 0px -4px rgb(255 255 255 / 30%);
 }
 
 .card__image {
