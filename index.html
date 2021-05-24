@@ -12,24 +12,29 @@
 </head>
 
 <body>
+  <header class="header">
+    <div class="container">
+      <div class="header__content">
+        <img src="./images/logo.png" width="70" height="20" alt="logo">
+        <nav class="menu" aria-label="main-navigation">
+          <ul>
+            <li>
+              <a href="#main" class="is-active">Hola</a>
+            </li>
+            <li>
+              <a href="#project">Proyectos</a>
+            </li>
+            <li>
+              <a href="#contact">Hablemos</a>
+            </li>
+          </ul>
+        </nav>
+        <button class="button">CURRÍCULUM</button>
+      </div>
+    </div>
+  </header>
+
   <div class="container">
-    <header class="header">
-      <img src="./images/logo.png" width="70" height="20" alt="logo">
-      <nav class="menu" aria-label="main-navigation">
-        <ul>
-          <li>
-            <a href="#main" class="is-active">Hola</a>
-          </li>
-          <li>
-            <a href="#main">Proyectos</a>
-          </li>
-          <li>
-            <a href="#main">Hablemos</a>
-          </li>
-        </ul>
-      </nav>
-      <button class="button">CURRÍCULUM</button>
-    </header>
     <section class="hero" id="main" aria-label="main">
       <div class="hero__image">
         <div class="hero__image-bar"> </div>
@@ -72,7 +77,7 @@
       </div>
     </section>
 
-    <div class="project">
+    <div class="project" id="project">
       <div class="project__image">
         <img src="./images/img1.png" alt="">
       </div>
@@ -154,47 +159,51 @@
     </div>
 
     <form action="POST" class="form">
-      <h2 class="title">Hablemos</h2>
-      <p>
-        Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.
-      </p>
-      <div>
-        <label for="form-name">Nombre completo</label>
-        <input name="form-name" id="form-name" type="text" placeholder="Juan" required>
-      </div>
-
-      <div>
-        <label for="form-email">Correo electrónico</label>
-        <input name="form-email" id="form-email" type="email" placeholder="juan@gmail.com" required>
-      </div>
-      <div>
-        <label for="form-message">Mensaje</label>
-        <textarea name="form-message" id="form-message" cols="30" rows="7" required></textarea>
-      </div>
-      <button class="button" type="submit">Enviar mensaje</button>
+      <div class="form__content">
 
 
+        <h2 class="title">Hablemos</h2>
+        <p>
+          Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.
+        </p>
+        <div>
+          <label for="form-name">Nombre completo</label>
+          <input name="form-name" id="form-name" type="text" placeholder="Juan" required>
+        </div>
+
+        <div>
+          <label for="form-email">Correo electrónico</label>
+          <input name="form-email" id="form-email" type="email" placeholder="juan@gmail.com" required>
+        </div>
+        <div>
+          <label for="form-message">Mensaje</label>
+          <textarea name="form-message" id="form-message" cols="30" rows="7" required></textarea>
+        </div>
+        <button class="button" type="submit">Enviar mensaje</button>
+      </div>
     </form>
 
-    <footer class="footer">
-      <div class="footer__logo">
-        <img src="./images/logo.png" width="70" height="20" alt="logo">
-      </div>
+    <footer class="footer" id=contact>
+      <div class="footer__content">
+        <div class="footer__logo">
+          <img src="./images/logo.png" width="70" height="20" alt="logo">
+        </div>
 
-      <div class="social">
-        <a class="button-icon" href="#"><img src="./icons/icon-phone.svg"></a>
-        <a class="button-icon" href="#"><img src="./icons/icon-important_mail.svg"></a>
-        <a class="button-icon" href="#"><img src="./icons/icon-twitter_squared.svg"></a>
-        <a class="button-icon" href="#"><img src="./icons/icon-github.svg"></a>
-      </div>
+        <div class="social">
+          <a class="button-icon" href="#"><img src="./icons/icon-phone.svg"></a>
+          <a class="button-icon" href="#"><img src="./icons/icon-important_mail.svg"></a>
+          <a class="button-icon" href="#"><img src="./icons/icon-twitter_squared.svg"></a>
+          <a class="button-icon" href="#"><img src="./icons/icon-github.svg"></a>
+        </div>
 
-      <div class="footer__copyright">
-        <p>
-          Hecho con el <img src="./icons/icon-heart_outline.svg"> de Luis.
-        </p>
-        <p>
-          Copyright 2021 - Todos los derechos reservados.
-        </p>
+        <div class="footer__copyright">
+          <p>
+            Hecho con el <img src="./icons/icon-heart_outline.svg"> de Luis.
+          </p>
+          <p>
+            Copyright 2021 - Todos los derechos reservados.
+          </p>
+        </div>
       </div>
     </footer>
   </div>
