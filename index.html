@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Page Title</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&display=swap" rel="stylesheet">
+  <link rel='stylesheet' type='text/css' media='screen' href='./css/main.css'>
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <img src="./images/logo.png" width="70" height="20" alt="logo">
+      <nav class="menu" aria-label="main-navigation">
+        <ul>
+          <li>
+            <a href="#main" class="is-active">Hola</a>
+          </li>
+          <li>
+            <a href="#main">Proyectos</a>
+          </li>
+          <li>
+            <a href="#main">Hablemos</a>
+          </li>
+        </ul>
+      </nav>
+      <button class="button">CURRÍCULUM</button>
+    </header>
+    <section class="hero" id="main" aria-label="main">
+      <div class="hero__image">
+        <div class="hero__image-bar"> </div>
+        <img src="./images/luis.png" alt="">
+      </div>
+
+      <div class="hero__description">
+        <h1>
+          <span class="hero__description-title">
+            ¡Hola a todos!
+          </span>
+          <span class="hero__description-name">
+            Soy Luis
+          </span>
+        </h1>
+        <p>
+          Frontend Developer que le encanta implementar diseños que inspiran y atraen a las personas.
+        </p>
+        <div class="social">
+          <a class="button-icon" href="#"><img src="./icons/icon-phone.svg"></a>
+          <a class="button-icon" href="#"><img src="./icons/icon-important_mail.svg"></a>
+          <a class="button-icon" href="#"><img src="./icons/icon-twitter_squared.svg"></a>
+          <a class="button-icon" href="#"><img src="./icons/icon-github.svg"></a>
+        </div>
+        <a href="#" class="button">
+          DESCARGAR CURRÍCULUM
+        </a>
+      </div>
+    </section>
+
+    <section class="personal-message">
+      <p>
+        A lo largo de mi carrera como Frontend, he tenido el privilegio de trabajar en proyectos retadores e increíbles
+      </p>
+      <h1>
+        Aquí hay algunos que me gustaría compartir.
+      </h1>
+      <div class="personal-message__arrow">
+        <img src="./icons/icons-down.svg" alt="">
+      </div>
+    </section>
+
+    <div class="project">
+      <div class="project__image">
+        <img src="./images/img1.png" alt="">
+      </div>
+      <div class="project__description">
+        <a class="title" href="#">misitio.com</a>
+        <p>
+          Accede a más de 120 proyectos que te ayudarán a mejorar
+          tus habilidades como desarrollador Front-End.
+        </p>
+        <a href="https://github.com" target="_blank" class="button">Ver codigo</a>
+        <a href="" target="_blank" class="button button-secondary">ver proyecto</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__image">
+        <img src="/images/luis.jpeg" width="64" height="64" alt="">
+      </div>
+      <div class="card__body">
+        "Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".
+      </div>
+      <div class="card__footer">
+        Luis / Desarollador backend, en proceso de frontend..! =)
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__image">
+        <img src="./images/img2.png" alt="">
+      </div>
+      <div class="project__description">
+        <a class="title" href="#">misitio.com</a>
+        <p>
+          Accede a más de 120 proyectos que te ayudarán a mejorar
+          tus habilidades como desarrollador Front-End.
+        </p>
+        <a href="https://github.com" target="_blank" class="button">Ver codigo</a>
+        <a href="" target="_blank" class="button button-secondary">ver proyecto</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__image">
+        <img src="/images/luis.jpeg" width="64" height="64" alt="">
+      </div>
+      <div class="card__body">
+        "Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".
+      </div>
+      <div class="card__footer">
+        Luis / Desarollador backend, en proceso de frontend..! =)
+      </div>
+    </div>
+
+    <div class="project">
+      <div class="project__image">
+        <img src="./images/img3.png" alt="">
+      </div>
+      <div class="project__description">
+        <a class="title" href="#">misitio.com</a>
+        <p>
+          Accede a más de 120 proyectos que te ayudarán a mejorar
+          tus habilidades como desarrollador Front-End.
+        </p>
+        <a href="https://github.com" target="_blank" class="button">Ver codigo</a>
+        <a href="" target="_blank" class="button button-secondary">ver proyecto</a>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card__image">
+        <img src="/images/luis.jpeg" width="64" height="64" alt="">
+      </div>
+      <div class="card__body">
+        "Jaume ha superado mis expectativas desde el diseño hasta el desarrollo".
+      </div>
+      <div class="card__footer">
+        Luis / Desarollador backend, en proceso de frontend..! =)
+      </div>
+    </div>
+
+    <form action="POST" class="form">
+      <h2 class="title">Hablemos</h2>
+      <p>
+        Si está interesado en trabajar conmigo en su próximo proyecto, no dude en ponerse en contacto conmigo.
+      </p>
+      <div>
+        <label for="form-name">Nombre completo</label>
+        <input name="form-name" id="form-name" type="text" placeholder="Juan" required>
+      </div>
+
+      <div>
+        <label for="form-email">Correo electrónico</label>
+        <input name="form-email" id="form-email" type="email" placeholder="juan@gmail.com" required>
+      </div>
+      <div>
+        <label for="form-message">Mensaje</label>
+        <textarea name="form-message" id="form-message" cols="30" rows="7" required></textarea>
+      </div>
+      <button class="button" type="submit">Enviar mensaje</button>
+
+
+    </form>
+
+    <footer class="footer">
+      <div class="footer__logo">
+        <img src="./images/logo.png" width="70" height="20" alt="logo">
+      </div>
+
+      <div class="social">
+        <a class="button-icon" href="#"><img src="./icons/icon-phone.svg"></a>
+        <a class="button-icon" href="#"><img src="./icons/icon-important_mail.svg"></a>
+        <a class="button-icon" href="#"><img src="./icons/icon-twitter_squared.svg"></a>
+        <a class="button-icon" href="#"><img src="./icons/icon-github.svg"></a>
+      </div>
+
+      <div class="footer__copyright">
+        <p>
+          Hecho con el <img src="./icons/icon-heart_outline.svg"> de Luis.
+        </p>
+        <p>
+          Copyright 2021 - Todos los derechos reservados.
+        </p>
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>

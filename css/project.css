@@ -1,0 +1,33 @@
+.project {
+  padding-block: 40px;
+}
+
+.project__description {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.project__image {
+  text-align: center;
+}
+.project__image img {
+  max-inline-size: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .project {
+    display: flex;
+    align-items: center;
+    padding-block: 80px;
+  }
+
+  .project__description {
+    flex: 1;
+  }
+
+  .project:nth-child(odd) .project__image {
+    order: 1;
+    flex: 1;
+  }
+}

@@ -1,0 +1,10 @@
+.title {
+  background: var(--colorBlueGem);
+  font: var(--headline5);
+  color: var(--colorWhite);
+  align-self: flex-start;
+  padding-inline: 8px;
+  padding-block: 4px;
+  box-shadow: -4px 4px 0 var(--colorWhite);
+  text-decoration: none;
+}

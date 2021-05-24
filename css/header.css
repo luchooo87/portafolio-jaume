@@ -1,0 +1,28 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  block-size: 81px;
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+}
+
+.button {
+  background: var(--colorBlueGem);
+  color: var(--colorWhite);
+  border: none;
+  border-radius: 4px;
+  font: var(--button);
+  padding-inline: 24px;
+  padding-block: 13px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+}
+
+.button.button-secondary {
+  background: unset;
+  color: var(--colorBlueGem);
+  border: 2px solid var(--colorBlueGem);
+}

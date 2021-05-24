@@ -1,0 +1,27 @@
+:root {
+  --fontFamilyBase: "Poppins", sans-serif;
+  --fontFamilyOxigen: "Oxygen", sans-serif;
+
+  --headline1: bold 95px/154px var(--fontFamilyBase);
+  --headline2: bold 59px/95px var(--fontFamilyBase);
+  --headline3: bold 48px/78px var(--fontFamilyBase);
+  --headline4: bold 34px/55px var(--fontFamilyBase);
+  --headline5: bold 24px/39px var(--fontFamilyBase);
+
+  --body1: 16px/26px var(--fontFamilyBase);
+  --body2: 14px/23px var(--fontFamilyBase);
+
+  --button: bold 14px/23px var(--fontFamilyBase);
+  --caption: 12px/19px var(--fontFamilyBase);
+
+  --cardBody: bold 16px/26px var(--fontFamilyOxigen);
+
+  --backgroundBody: radial-gradient(41.48% 11.48% at 2.38% 8.52%, #747de9 0%, rgba(255, 255, 255, 0) 100%),
+    linear-gradient(135deg, #72edf2 0%, #5151e5 100%);
+
+  --colorBlueGem: #310a90;
+  --colorTurquoise: #42e2b8;
+  --colorWhite: #fff;
+  --colorElectricViolet: #6f34fe;
+  --colorOsloGray: #858c94;
+}

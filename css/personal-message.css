@@ -1,0 +1,47 @@
+.personal-message {
+  block-size: 481px;
+  margin-block-start: 16px;
+  padding-block-start: 40px;
+  text-align: center;
+}
+
+.personal-message p {
+  font-size: 24px;
+  line-height: 39px;
+}
+
+.personal-message h1 {
+  margin-block-start: 24px;
+  font: var(--headline5);
+}
+
+.personal-message__arrow {
+  margin-block-start: 40px;
+}
+
+.personal-message__arrow img {
+  block-size: 47px;
+}
+
+@media screen and (min-width: 768px) {
+  .personal-message {
+    block-size: 679px;
+    margin-block-start: 116px;
+    padding-block-start: 200px;
+  }
+
+  .personal-message__arrow img {
+    block-size: 81px;
+  }
+
+  .personal-message p {
+    font-size: 34px;
+    line-height: 55px;
+    padding-inline: 56px;
+  }
+
+  .personal-message h1 {
+    margin-block-start: 24px;
+    font: var(--headline5);
+  }
+}
