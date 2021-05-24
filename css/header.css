@@ -1,11 +1,14 @@
 .header {
+  position: sticky;
+  top: 0;
+  backdrop-filter: blur(10px);
+}
+
+.header__content {
   display: flex;
   justify-content: space-between;
   align-items: center;
   block-size: 81px;
-  position: sticky;
-  top: 0;
-  backdrop-filter: blur(10px);
 }
 
 .button {

@@ -1,4 +1,4 @@
-.footer {
+.footer__content {
   color: var(--colorWhite);
   text-align: center;
   padding-block-end: 24px;
@@ -17,7 +17,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer {
+  .footer__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
